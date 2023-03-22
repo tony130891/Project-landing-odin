@@ -1,0 +1,25 @@
+html, body {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+
+.container {
+display: flex;
+flex-flow: column wrap;
+}
+
+.hero {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+}
+
+h1 {
+  font-size: 24px;  color: #f9faf8;
+}
+
+h2 {
+ font-size: 48px; color: #f9faf8
+}
