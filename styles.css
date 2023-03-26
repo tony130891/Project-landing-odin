@@ -75,3 +75,37 @@ h1 {
   border: 1px #3882f6;
   border-radius: 10px;
 }
+
+.secondSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2936;
+  text-align: center;
+}
+
+.rowOfBlue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 100px;
+  align-items: center;
+}
+
+.boxBlue {
+  border: 3px solid #3882f6;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.p-second {
+  text-align: center;
+  font-size: 18px;
+}
