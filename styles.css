@@ -15,6 +15,19 @@
 .headerLink {
   font-size: 18px;
   color: #e5e7eb;
+  gap: 100px;
+  text-decoration-style: none;
+  padding: 30px;
+}
+
+.headerLink a{
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  width: 100px;
+  padding-top: 30px;
+  text-decoration-style: none;
+  text-decoration: none;
 }
 
 .navbar {
@@ -27,12 +40,18 @@ ul {
   flex-direction: row;
 }
 
-.navbar-left,
-.navbar-right {
+.navbar-left {
 display: flex;
 width: 50%;
 justify-content: center;
 align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -56,7 +75,8 @@ h1 {
 }
 
 .img {
-  margin: 50px;
+  object-fit: cover;
+  padding-bottom: 90px;
 }
 
 .content-left {
@@ -72,8 +92,10 @@ h1 {
   color: white;
   width: 100px;
   height: 35px;
+  margin-left: 23px;
   border: 1px #3882f6;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .secondSection {
@@ -115,6 +137,7 @@ h2 {
   height: 500px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 h3 {
@@ -136,4 +159,63 @@ h3 {
   padding-right: 50px;
   margin-top: 100px;
   margin-right: 280px;
+}
+
+.lastSection {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bluecontainer {
+  background-color: #3882f6;
+  width: 74%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 80%;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 24px;
+  color: white;
+}
+
+.last-p {
+  color: white;
+  font-size: 18px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonLast {
+      background-color: #3882f6;
+      color: white;
+      width: 100px;
+      height: 35px;
+      margin-right: 30px;
+      border: 1px solid white;
+      border-radius: 10px;
+      cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  height: 80px;
+  align-items: center;
 }
